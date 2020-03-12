@@ -1,7 +1,7 @@
 ## noob projects
 
 ## beginner projects
-  * [visitcounter](/visitcounter) 
+  * [visitcounter](/docker/visitcounter) 
 
 ## advanced projects
 
