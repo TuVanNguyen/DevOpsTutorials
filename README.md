@@ -11,5 +11,5 @@ Collection of starter projects to help teach DevOps Fundamentals
   1. [Docker](/docker)
   1. [Kubernetes](/kubernetes)
   1. [Helm](/helm)
-  1. [Jenkins](/jenkins)
+  1. [Jenkins](/Jenkins)
 
