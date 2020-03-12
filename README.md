@@ -7,8 +7,9 @@ Collection of starter projects to help teach DevOps Fundamentals
   * docker-compose 1.25.4
   * minikube v.1.7.3
 
-## Levels 
-  * noob
-  * beginner
-  * advanced
-  * pro
+## Suggested Module Order
+  1. [Docker](/docker)
+  1. [Kubernetes](/kubernetes)
+  1. [Helm](/helm)
+  1. [Jenkins](/jenkins)
+
