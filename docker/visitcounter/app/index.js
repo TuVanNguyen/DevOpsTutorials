@@ -8,7 +8,7 @@ const client = redis.createClient({
 })
 
 client.get('visits', (err, visits) => {
-	if(visits === 'NaN') {
+	if(visits === 'NaN' || visits === 'null') {
 		client.set('visits',1);
 	}
 })
