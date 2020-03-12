@@ -1,7 +1,7 @@
 ## noob projects
 
 ## beginner projects
-  * visitcounter 
+  * [visitcounter](/visitcounter) 
 
 ## advanced projects
 
