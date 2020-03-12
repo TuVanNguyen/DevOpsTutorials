@@ -1,3 +1,9 @@
+# Docker Tutorials
+### Prereqs
+  * node.js
+  * Docker
+  * Docker-compose
+
 ## noob projects
 
 ## beginner projects

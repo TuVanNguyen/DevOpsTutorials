@@ -20,7 +20,7 @@ In Bash
 ```
 mkdir app
 cd app
-npm init
+npm init -y
 npm install redis
 npm install express
 ```
