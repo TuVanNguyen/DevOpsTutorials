@@ -9,6 +9,7 @@ A really simple proof of concept web application to show how a node.js app and r
 
 ### Steps
   1. create node.js application
+  1. Write [app/index.js](/docker/visitcounter/app/index.js)
   1. create Dockerfile for node.js application
   1. create docker-compose file
   1. test
@@ -24,5 +25,15 @@ npm install redis
 npm install express
 ```
 
+## Testing
+In Bash:
+```
+docker-compose up --build
+#see http://localhost.com:4001
+
+#Clean up
+docker-compose down
+```
+
 ## References
-[http://progressivecoder.com/docker-compose-nodejs-application-with-redis-integration/](Tutorial from Progressive Coder)
+[Tutorial from Progressive Coder](http://progressivecoder.com/docker-compose-nodejs-application-with-redis-integration/)
