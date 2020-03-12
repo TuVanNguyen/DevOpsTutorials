@@ -1,6 +1,6 @@
 # Docker Tutorials
-### Prereqs
-  * node.js
+### Requirements
+  * node.js (version 10)
   * Docker
   * Docker-compose
 
