@@ -24,4 +24,5 @@ npm install redis
 npm install express
 ```
 
-
+## References
+[http://progressivecoder.com/docker-compose-nodejs-application-with-redis-integration/](Tutorial from Progressive Coder)
