@@ -1,0 +1,40 @@
+pipeline {
+  agent any
+  stages {
+    stage('build') {
+      steps {
+        echo 'Building...'
+        echo "Hello World! I am a Jenkins pipeline. Thank you for running me!"
+      }
+    }
+    stage('Test') {
+      steps {
+        echo 'Testing...'
+        echo "Hello World! I am a Jenkins pipeline. Thank you for running me!"
+      }
+    }
+    stage('Deploy') {
+      steps {
+        echo 'Deploying...'
+        echo "Hello World! I am a Jenkins pipeline. Thank you for running me!"
+      }
+    }
+  }
+  post {
+    always {
+      echo "Always: This will always run after the stages are done."
+    }	
+    success {
+      echo "Hey World, I've made it!"
+    }
+    failure {
+      echo "Sorry World! I have failed you."
+    }
+    unstable {
+      echo "Watch out World! I am unstable. "
+    }
+    changed { 
+      echo "Hey World, something has changed within me."
+    }
+  } 
+}   
