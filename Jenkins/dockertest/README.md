@@ -1,4 +1,4 @@
-# Using Jenkins to Run a Docker Container
+# Create Jenkins Pipeline to Run a Docker Container
 ## Level: noob
 
 ## Steps
@@ -14,4 +14,7 @@ sudo service jenkins restart
 ```
 
 ## Create Pipeline
+  1. On Jenkins Dashboard, go to "New Item" >> "Pipeline"
+  1. Under "General/Pipeline", configure settings like below. Change the repository URL and script path to match your Jenkinsfile, if you created your own.
+
 ![Pipeline Setup](/Jenkins/dockertest/jenkinsdockerpipeline.PNG )
