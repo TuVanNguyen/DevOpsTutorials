@@ -23,4 +23,4 @@ sudo service jenkins restart
 
 
 # References
-[Heavily Based on this Tutorial from the Jenkins Documentation](https://jenkins.io/doc/pipeline/tour/running-multiple-steps/)
+[Based on this Article from the Jenkins Documentation](https://jenkins.io/doc/pipeline/tour/running-multiple-steps/)
