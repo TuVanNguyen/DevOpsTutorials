@@ -40,7 +40,7 @@ docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
 
 ## Add Dockerhub Credentials on Jenkins
 
-  1.Go to Jenkins > Credentials > System > Global credentials (unrestricted) > Add credentials
+  1. Go to Jenkins > Credentials > System > Global credentials (unrestricted) > Add credentials
   1. Enter in your credentials on Docker Hub like below
   
 ![Docker Hub Credentials](/Jenkins/myDockerfile/dockerhubcredentials.PNG)
