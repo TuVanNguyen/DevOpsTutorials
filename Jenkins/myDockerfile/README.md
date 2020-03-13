@@ -39,8 +39,10 @@ docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
   * If you use a different URL for the Docker Hub registry, you will be able to log in but you may get the error "denied: requested access to the resource is denied"
 
 ## Add Dockerhub Credentials on Jenkins
+
   1.Go to Jenkins > Credentials > System > Global credentials (unrestricted) > Add credentials
   1. Enter in your credentials on Docker Hub like below
+  
 ![Docker Hub Credentials](/Jenkins/myDockerfile/dockerhubcredentials.PNG)
 
 
