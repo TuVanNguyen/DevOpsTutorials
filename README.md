@@ -1,5 +1,5 @@
 # DevOpsTutorials
-Collection of starter projects to help teach DevOps Fundamentals
+Collection of starter projects to help teach hands-on DevOps Fundamentals
 
 ## System Setup
   * OS: Ubuntu 18.04
@@ -16,3 +16,8 @@ Collection of starter projects to help teach DevOps Fundamentals
   1. [Helm](/helm): for packaging kubernetes resources, and managing those packages
   1. [Jenkins](/Jenkins): for creating CI/CD environments that allow for automatic build and testing of applications in git repos, docker images, etc.
   1. [Amazon Web Services (aws)](/aws) : for cloud computing
+  
+## Learning Tips
+  * Type out all the code by hand. Do not copy and paste!
+  * Try to learn the various tools simultaneously, and see how they can work together. Don't learn them in isolation.
+  * If you're getting bored or frustrated, take a break and come back to it later.
