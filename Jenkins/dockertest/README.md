@@ -14,4 +14,4 @@ sudo service jenkins restart
 ```
 
 ## Create Pipeline
-![Pipeline Setup](/Jenkins/dockertest/jenkinsdockerpipeline.png)
+![Pipeline Setup](/Jenkins/dockertest/jenkinsdockerpipeline.PNG )
