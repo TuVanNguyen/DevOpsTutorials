@@ -1,17 +1,22 @@
 node {
+    def app
     stage('Clone Sources') {
         git url: 'https://github.com/TuVanNguyen/DevOpsTutorials.git'
     }
     stage('Build Image') {
-        def app = docker.build("./Jenkins/myDockerfile")
+        withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'dockerhub', usernameVariable: 'USER', passwordVariable: 'PASS']]) {
+            app = docker.build("${USER}/test-nginx:${env.BUILD_ID}","./Jenkins/myDockerfile")
+        }
     }
     stage('Test'){
-        docker.image('test-image').withRun('-p 8082:80') { c ->
-            sh 'curl http://localhost:8082'
+        withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'dockerhub', usernameVariable: 'USER', passwordVariable: 'PASS']]) {
+            docker.image("${USER}/test-nginx:${env.BUILD_ID}").withRun('-p 8082:80') { c ->
+                sh 'curl http://localhost:8082'
+            }
         }
     }
     stage('Push to registry'){
-        docker.withRegistry('4pathia/test-nginx', 'dockerhub') {
+        docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
             app.push()
         }
     }
