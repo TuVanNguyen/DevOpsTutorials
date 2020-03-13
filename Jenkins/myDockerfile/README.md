@@ -1,4 +1,5 @@
 # My Dockerfile Tutorial for Jenkins
+We will be creating a very basic nginx web app that will run in a docker container. Using Jenkins, we will build and test our custom docker image.
 
 ### Covers
   * writing a scripted pipeline
