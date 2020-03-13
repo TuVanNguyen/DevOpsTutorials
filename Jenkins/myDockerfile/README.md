@@ -11,10 +11,13 @@ We will be creating a very basic nginx web app that will run in a docker contain
   1. Write [index.html](/Jenkins/myDockerfile/index.html)
   1. Write [Jenkinsfile](/Jenkins/myDockerfile/Jenkinsfile)
   1. Create the pipeline in Jenkins
+  1. Add Dockerhub Credentials on 
   1. Build pipeline and checkout console output
   
 ## References
 [Pipeline Examples](https://jenkins.io/doc/pipeline/examples/)
 
 [Using Docker with Pipeline](https://jenkins.io/doc/book/pipeline/docker/)
+
+[Building your first Docker image with Jenkins 2: Guide for developers](https://getintodevops.com/blog/building-your-first-docker-image-with-jenkins-2-guide-for-developers)
 
