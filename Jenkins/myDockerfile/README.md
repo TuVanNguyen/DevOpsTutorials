@@ -15,10 +15,29 @@ We will be creating a very basic nginx web app that will run in a docker contain
   1. Write the [Dockerfile](/Jenkins/myDockerfile/Dockerfile)
   1. Write [index.html](/Jenkins/myDockerfile/index.html)
   1. Write [Jenkinsfile](/Jenkins/myDockerfile/Jenkinsfile)
-  1. Create the pipeline in Jenkins
   1. Add Dockerhub Credentials on Jenkins
+  1. Create the pipeline in Jenkins
   1. Build pipeline and checkout console output
+
+## Writing the Jenkinsfile
+There are multiple blocks in this Jenkinsfile that make use of methods from various plugins we've installed in Jenkins
+```
+withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'dockerhub', usernameVariable: 'USER', passwordVariable: 'PASS']]) {
+   app = docker.build("${USER}/test-nginx:${env.BUILD_ID}","./Jenkins/myDockerfile")
+}
+```
+  * this block extracts username and password from the Jenkins credential we named 'dockerhub'
+  * this allows us to access our username on Docker Hub without having to hardcode it here
+  * we build our docker image under our username's namespace and tag it with the Jenkins build number
   
+```
+docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
+    app.push()
+}
+```
+  * In this block, we log into our Docker Hub registry with the credentials we stored under dockerhub
+  * If you use a different URL for the Docker Hub registry, you will be able to log in but you may get the error "denied: requested access to the resource is denied"
+
 ## References
 [Pipeline Examples](https://jenkins.io/doc/pipeline/examples/)
 
