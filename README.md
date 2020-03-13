@@ -11,8 +11,8 @@ Collection of starter projects to help teach DevOps Fundamentals
   
 
 ## Suggested Module Order
-  1. [Docker](/docker)
-  1. [Kubernetes](/kubernetes)
-  1. [Helm](/helm)
-  1. [Jenkins](/Jenkins)
-
+  1. [Docker](/docker): for packaging applications into efficient, nimble containers
+  1. [Kubernetes](/kubernetes): for orchestrating your Docker containers as a cluster
+  1. [Helm](/helm): for packaging kubernetes resources, and managing those packages
+  1. [Jenkins](/Jenkins): for creating CI/CD environments that allow for automatic build and testing of applications in git repos, docker images, etc.
+  1. [Amazon Web Services (aws)](/aws) : for cloud computing
