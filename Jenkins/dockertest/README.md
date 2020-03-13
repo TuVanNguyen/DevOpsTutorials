@@ -20,3 +20,7 @@ sudo service jenkins restart
   1. Hit Save
 
 ![Pipeline Setup](/Jenkins/dockertest/jenkinsdockerpipeline.PNG )
+
+
+# References
+[Heavily Based on this Tutorial from the Jenkins Documentation](https://jenkins.io/doc/pipeline/tour/running-multiple-steps/)
