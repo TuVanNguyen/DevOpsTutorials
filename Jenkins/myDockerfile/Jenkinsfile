@@ -3,7 +3,7 @@ node {
         git url: 'https://github.com/TuVanNguyen/DevOpsTutorials.git'
     }
     stage('Build Image') {
-        app = docker.build('test-image',"DevOpsTutorial/Jenkins/myDockerfile")
+        app = docker.build('test-image',"./Jenkins/myDockerfile")
     }
     stage('Test'){
         docker.image('test-image').withRun('-p 8082:80') { c ->
