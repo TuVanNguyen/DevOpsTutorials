@@ -9,8 +9,5 @@ node {
         docker.image('test-image').withRun('-p 8082:80') { c ->
             sh 'curl http://localhost:8082'
         }
-    }
-    
-    
-    
+    }    
 }
