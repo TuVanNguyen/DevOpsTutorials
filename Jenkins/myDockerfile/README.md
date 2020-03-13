@@ -7,7 +7,7 @@
   
 ## Steps
   1. Write the [Dockerfile](/Jenkins/myDockerfile/Dockerfile)
-  1. Write [index.html]](/Jenkins/myDockerfile/index.html)
+  1. Write [index.html](/Jenkins/myDockerfile/index.html)
   1. Write [Jenkinsfile](/Jenkins/myDockerfile/Jenkinsfile)
   1. Create the pipeline in Jenkins
   1. Build pipeline and checkout console output
