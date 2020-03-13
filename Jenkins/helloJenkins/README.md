@@ -12,4 +12,4 @@
   1. Under "General/Pipeline", configure settings like below. Change the repository URL and script path to match your Jenkinsfile, if you created your own.
   1. Hit Save, then "Build Now" to test. Check out Console Output.
 
-![Pipeline Setup](/Jenkins/dockertest/jenkinsdockerpipeline.PNG )
+![Pipeline Setup](/Jenkins/helloJenkins/jenkinspipeline.PNG )
