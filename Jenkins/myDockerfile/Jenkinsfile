@@ -3,11 +3,16 @@ node {
         git url: 'https://github.com/TuVanNguyen/DevOpsTutorials.git'
     }
     stage('Build Image') {
-        app = docker.build('test-image',"./Jenkins/myDockerfile")
+        def app = docker.build("./Jenkins/myDockerfile")
     }
     stage('Test'){
         docker.image('test-image').withRun('-p 8082:80') { c ->
             sh 'curl http://localhost:8082'
         }
-    }    
+    }
+    stage('Push to registry'){
+        docker.withRegistry('4pathia/test-nginx', 'dockerhub') {
+            app.push()
+        }
+    }
 }
