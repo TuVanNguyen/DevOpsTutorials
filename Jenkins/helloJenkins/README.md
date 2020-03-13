@@ -13,3 +13,7 @@
   1. Hit Save, then "Build Now" to test. Check out Console Output.
 
 ![Pipeline Setup](/Jenkins/helloJenkins/jenkinspipeline.PNG )
+
+
+# References
+[Based on this Article from the Jenkins Documentation](https://jenkins.io/doc/pipeline/tour/running-multiple-steps/)
