@@ -6,7 +6,7 @@
   1. Make sure Jenkins has Docker Pipeline Plugin Installed
   1. Write [Jenkinsfile](/Jenkins/dockertest/Jenkinsfile)
   1. Create Pipeline
-  1. Click "Build Now" for Pipeline to test, then checkout console output
+  1. Click "Build Now" for the pipeline to test, then checkout console output
   
 ## Give Jenkins Permission to run docker
 ```
