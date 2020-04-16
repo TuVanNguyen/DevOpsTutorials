@@ -11,6 +11,7 @@ Collection of starter projects to help teach hands-on DevOps Fundamentals
   
 
 ## Suggested Module Order
+  1. [Ansible](/ansible): for configuration management
   1. [Docker](/docker): for packaging applications into efficient, nimble containers
   1. [Kubernetes](/kubernetes): for orchestrating your Docker containers as a cluster
   1. [Helm](/helm): for packaging kubernetes resources, and managing those packages
