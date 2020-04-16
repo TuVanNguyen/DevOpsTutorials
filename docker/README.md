@@ -8,6 +8,8 @@
 
 ## beginner projects
   * [visitcounter](/docker/visitcounter) 
+  * [Dokuwiki](/docker/Dokuwiki) 
+
 
 ## advanced projects
 
