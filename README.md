@@ -22,3 +22,4 @@ Collection of starter projects to help teach hands-on DevOps Fundamentals
   * Type out all the code by hand. Do not copy and paste!
   * Try to learn the various tools simultaneously, and see how they can work together. Don't learn them in isolation.
   * If you're getting bored or frustrated, take a break and come back to it later.
+  * check out the wiki and official documentations to understand the underlying concepts
