@@ -3,6 +3,7 @@ Collection of starter projects to help teach hands-on DevOps Fundamentals
 
 ## System Setup
   * OS: Ubuntu 18.04
+  * Ansible 2.9.7
   * Docker 18.09.7
   * docker-compose 1.25.4
   * minikube v.1.7.3
