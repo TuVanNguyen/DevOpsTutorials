@@ -8,7 +8,7 @@
 
 ## beginner projects
   * [visitcounter](/docker/visitcounter) 
-  * [Dokuwiki](/docker/Dokuwiki) 
+  * [Dokuwiki](https://github.com/TuVanNguyen/dokuwiki-on-docker) 
 
 
 ## advanced projects
