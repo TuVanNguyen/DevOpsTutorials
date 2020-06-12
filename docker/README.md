@@ -9,6 +9,7 @@
 ## beginner projects
   * [visitcounter](/docker/visitcounter) 
   * [Dokuwiki](https://github.com/TuVanNguyen/dokuwiki-on-docker) 
+  * [Jupyter Notebook](/docker/jupyternotebook)
 
 
 ## advanced projects
