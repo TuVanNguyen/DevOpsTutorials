@@ -5,11 +5,11 @@
   * Docker-compose
 
 ## noob projects
+  * [visitcounter](/docker/visitcounter) 
 
 ## beginner projects
-  * [visitcounter](/docker/visitcounter) 
   * [Dokuwiki](https://github.com/TuVanNguyen/dokuwiki-on-docker) 
-  * [Jupyter Notebook](/docker/jupyternotebook)
+  * [Jupyter Notebook](https://github.com/TuVanNguyen/JupyterNotes)
 
 
 ## advanced projects
