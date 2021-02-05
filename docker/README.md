@@ -8,10 +8,12 @@
   * [visitcounter](/docker/visitcounter) 
 
 ## beginner projects
-  * [Dokuwiki](https://github.com/TuVanNguyen/dokuwiki-on-docker) 
-  * [Jupyter Notebook](https://github.com/TuVanNguyen/JupyterNotes)
+  * [Dokuwiki](/docker/Dokuwiki) 
+  * [Jupyter Notebook](/docker/jupyter)
 
 
 ## advanced projects
+  * [Ghost blog](/docker/ghost)
+  * [Wordpress blog](/docker/wordpress)
 
 ## pro projects
